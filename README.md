@@ -5,6 +5,7 @@ This repository contains the official research demonstration code accompanying o
 
 ### **A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D Radial MRI**
 
+![Graphical Abstract](Results/GA.png)
 ---
 
 ## Authors

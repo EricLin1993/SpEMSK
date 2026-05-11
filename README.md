@@ -19,7 +19,7 @@ This repository contains the official research demonstration code accompanying o
 Boston Children's Hospital  
 Harvard Medical School
 
-\* Corresponding author
+\* Corresponding author: enping.lin@childrens.harvard.edu
 
 ---
 
@@ -49,7 +49,7 @@ This project was developed and tested using:
 
 ```text
 MATLAB R2025a
-
+```
 
 ## Usage
 
@@ -136,4 +136,4 @@ SpEMSK/
 
 ## Citation
 
-If you find this work useful, please cite our paper. The citation information will be updated after publication.
+If you find this code useful, please cite our paper. The citation information will be updated after publication.

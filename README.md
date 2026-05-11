@@ -1,8 +1,3 @@
-# SpEMSK
-
-A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D Radial MRI.
-
----
 
 ## Related Paper
 
@@ -117,9 +112,6 @@ SpEMSK/
 ├── Helpers/                    % Helper functions
 ├── mirt_csp_simplify/          % Reconstruction utilities
 ├── Results/                    % Example output figures
-│   ├── synthetic_PCs.png
-│   └── synthetic_dynamics.png
-│
 ├── Run_Pipeline.m              % Main demonstration pipeline
 └── README.md
 ```

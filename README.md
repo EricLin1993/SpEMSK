@@ -49,3 +49,91 @@ This project was developed and tested using:
 
 ```text
 MATLAB R2025a
+
+
+## Usage
+
+### Step 1
+
+Open MATLAB and change the current directory to this repository folder:
+
+```matlab
+cd('Path_to_SpEMSK')
+```
+
+---
+
+### Step 2
+
+Run the main demonstration pipeline:
+
+```matlab
+Run_Pipeline
+```
+
+The pipeline will automatically:
+
+- Generate synthetic non-rigid MSK motion
+- Generate 3D radial trajectories
+- Simulate motion-corrupted k-space data
+- Extract spoke-energy motion signals
+- Generate PCA motion surrogates
+- Perform spoke reordering reconstruction
+- Display quantitative reconstruction results
+
+---
+
+## Example Results
+
+Running the pipeline will automatically generate the following figures.
+
+---
+
+### 1. PCA-based Motion Surrogate Signals
+
+The figure below shows different PCA motion surrogate components extracted from the spoke-energy (SpE) signals.
+
+![PC Signals](Results/synthetic_PCs.png)
+
+---
+
+### 2. Dynamic Reconstruction Comparison
+
+The figure below shows the dynamic reconstruction comparison, including:
+
+- Ground truth reconstruction
+- Reconstruction without spoke reordering
+- Reconstruction using different PCA components (PC1-PC4)
+
+![Dynamic Reconstruction](Results/synthetic_dynamics.png)
+
+---
+
+## Repository Structure
+
+```text
+SpEMSK/
+│
+├── Helpers/                    % Helper functions
+├── mirt_csp_simplify/          % Reconstruction utilities
+├── Results/                    % Example output figures
+│   ├── synthetic_PCs.png
+│   └── synthetic_dynamics.png
+│
+├── Run_Pipeline.m              % Main demonstration pipeline
+└── README.md
+```
+
+---
+
+## Notes
+
+- All helper functions required for reconstruction are included in this repository.
+- The reconstruction utilities have been integrated into portable standalone function files for easier usage and distribution.
+- This repository is intended for research and educational purposes only.
+
+---
+
+## Citation
+
+If you find this work useful, please cite our paper. The citation information will be updated after publication.

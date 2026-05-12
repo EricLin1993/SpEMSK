@@ -1,10 +1,6 @@
 function [images_combined, images, recon_time, save_time, eff_fov_expansion, coil_profiles] = tf_nufft_radial_recon_lep(signal, scaled_trajectory, base_resolution, fov_mm, varargin)
 %TF_NUFFT_RADIAL_RECON_LEP Reconstruct 3-D radial MRI data with the local NUFFT pipeline.
 %
-% This function is API-compatible with tf_nufft_radial_recon. The helper
-% routines used by the reconstruction are kept in this file so the function
-% can be moved without also copying the NUFFT utility folder. The code is
-% optimized and more efficient than the previous version tf_nufft_radial_recon.
 %
 % Authors: Enping Lin (lep), and Fatih Calakli
 % Email: enping.lin@childrens.harvard.edu

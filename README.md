@@ -1,7 +1,7 @@
 
 ## Related Paper
 
-This repository contains the official research demonstration code accompanying our manuscript currently under review at *Medical Image Analysis (MedIA)*:
+This repository contains the official research demonstration code accompanying our paper entitled "A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI" at *Medical Image Analysis (MedIA)*:
 
 ### **A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D Radial MRI**
 
@@ -129,4 +129,22 @@ SpEMSK/
 
 ## Citation
 
-If you find this code useful, please cite our paper. The citation information will be updated after publication.
+If you find this code useful, please cite our paper as
+## Citation
+
+If you use this code, please cite the following article:
+
+Lin, E., Calakli, F., Arslan, M. T., Schulte Farina, G., & Warfield, S. K. (2027). A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI. *Medical Image Analysis, 115*, 104345. https://doi.org/10.1016/j.media.2026.104345
+
+```bibtex
+@article{Lin2027SelfNavigatedMotionMRI,
+  title   = {A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial {MRI}},
+  author  = {Lin, Enping and Calakli, Fatih and Arslan, Musa Tunç and {Schulte Farina}, Giovani and Warfield, Simon Keith},
+  journal = {Medical Image Analysis},
+  volume  = {115},
+  pages   = {104345},
+  year    = {2027},
+  month   = jan,
+  doi     = {10.1016/j.media.2026.104345},
+  url     = {https://doi.org/10.1016/j.media.2026.104345}
+}

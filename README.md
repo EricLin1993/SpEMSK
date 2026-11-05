@@ -127,9 +127,7 @@ SpEMSK/
 
 ---
 
-## Citation
 
-If you find this code useful, please cite our paper as
 ## Citation
 
 If you use this code, please cite the following article:
@@ -137,7 +135,7 @@ If you use this code, please cite the following article:
 Lin, E., Calakli, F., Arslan, M. T., Schulte Farina, G., & Warfield, S. K. (2027). A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial MRI. *Medical Image Analysis, 115*, 104345. https://doi.org/10.1016/j.media.2026.104345
 
 ```bibtex
-@article{Lin2027SelfNavigatedMotionMRI,
+@article{Lin2027SpEMSK,
   title   = {A self-navigated framework for motion detection and spoke-reordering musculoskeletal dynamic reconstruction in 3D radial {MRI}},
   author  = {Lin, Enping and Calakli, Fatih and Arslan, Musa Tunç and {Schulte Farina}, Giovani and Warfield, Simon Keith},
   journal = {Medical Image Analysis},
